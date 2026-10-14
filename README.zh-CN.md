@@ -43,7 +43,10 @@ PlatformIO · framework = cmsis · STM32F103C8T6 (72MHz) · 标准外设库 (SPL
 
 ## 硬件连接
 
-![接线图：STM32F103C8T6 与各个外设的连接](docs/wiring.png)
+![接线图（工程图风格，英文标注）：STM32F103C8T6 与各个外设的连接](docs/wiring.png)
+
+> 接线图是**工程图纸风格、全英文标注**：带图框与分区刻度、标题栏，元件位号（`U1` 单片机 / `M1` 舵机 / `DS1` OLED / `SW1-3` 按键 / `RV1` 电位器 / `BZ1` 蜂鸣器 / `D1-3` 指示 LED），以及每条线的网络标号（`SERVO_PWM`、`I2C_SDA`、`ADC_POT`…）。
+> 由 `tools/draw_wiring.ps1` 生成，改引脚或文字后重跑即可。
 
 | 功能 | 引脚 | 说明 |
 | --- | --- | --- |
