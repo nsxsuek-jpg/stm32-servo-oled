@@ -57,7 +57,7 @@ PlatformIO · framework = cmsis · STM32F103C8T6 (72MHz) · 标准外设库 (SPL
 ## 快速开始
 
 ```bash
-git clone https://github.com/NSXSUEK-jpg/stm32-servo-oled.git
+git clone https://github.com/nsxsuek-jpg/stm32-servo-oled.git
 cd stm32-servo-oled
 
 pio run                 # 编译
