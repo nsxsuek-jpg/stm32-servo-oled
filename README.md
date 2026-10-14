@@ -8,8 +8,11 @@
 PlatformIO · framework = cmsis · STM32F103C8T6 (72MHz) · 标准外设库 (SPL)
 ```
 
-<!-- 想放实物照片的话，把图片放进 docs/ 再打开下面这行： -->
-<!-- ![实物图](docs/photo.jpg) -->
+<p align="center">
+  <img src="docs/setup.jpg" width="360" alt="实物照片">
+  <br>
+  <sub>实物照片</sub>
+</p>
 
 ---
 
@@ -132,4 +135,6 @@ lib/              CMSIS 与 SPL 的头文件（仅作"头文件仓库"用）
 
 ## 许可
 
-MIT
+本项目采用 **MIT License**，版权所有 © 2026 **nsxsuek-jpg**，详见 [LICENSE](LICENSE)。
+
+> `lib/` 下的 CMSIS 与标准外设库（SPL）来自 STMicroelectronics，版权归 ST 所有，按其原始许可分发。
