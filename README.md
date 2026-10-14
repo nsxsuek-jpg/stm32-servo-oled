@@ -43,6 +43,8 @@ PlatformIO · framework = cmsis · STM32F103C8T6 (72MHz) · 标准外设库 (SPL
 
 ## 硬件连接
 
+![接线图：STM32F103C8T6 与各个外设的连接](docs/wiring.png)
+
 | 功能 | 引脚 | 说明 |
 | --- | --- | --- |
 | **舵机 PWM** | **PB6** | TIM4_CH1，50Hz / 0.5~2.5ms。**PB7 / PB8 / PB9 同时输出同样的信号**，插哪个都行 |
@@ -86,6 +88,8 @@ src/
 └── spl/          标准外设库源文件（为什么放这里见该目录的 README）
 include/          各模块头文件
 lib/              CMSIS 与 SPL 的头文件（仅作"头文件仓库"用）
+docs/             实物照片与接线图（wiring.png 由 tools/draw_wiring.ps1 生成）
+tools/            辅助脚本
 ```
 
 ## 想改手感（都在文件顶部，一眼能找到）
